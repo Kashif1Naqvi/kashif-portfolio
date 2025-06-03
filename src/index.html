@@ -1,312 +1,593 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- HTML Meta Tags -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kashif Naqvi | Frontend Web Developer</title>
-    <meta
-      name="description"
-      content="Hi, I am Kashif. I create UX rich performant websites and web applications focusing on user interactions at an
-        expert level."
-    />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Syed Kashif Shah – Senior Full-Stack Developer</title>
+    <meta name="title" content="Syed Kashif Shah — Full Stack Developer (Python | Django | React)">
+  <meta name="description" content="Experienced Full Stack Developer skilled in Python, Django, React.js, FastAPI, and AWS. Explore projects, experience, and contact.">
+  <meta name="keywords" content="Syed Kashif Shah, Full Stack Developer, Python, Django, React, FastAPI, AWS, Lahore developer, portfolio">
+<meta name="author" content="Syed Kashif Shah">
 
-    <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="Kashif Naqvi | Frontend Web Developer" />
-    <meta
-      itemprop="description"
-      content="Hi, I am Kashif. I create UX rich performant websites and web applications focusing on user interactions at an
-        expert level."
-    />
-    <meta itemprop="image" content="./meta.png" />
+  <meta name="google-site-verification" content="O-yrtLz34Dsa_dzsmhoV3L6tZDhGdTJGHV4M6qAlB2A" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://naqvi-shah.surge.sh/">
+  <meta property="og:title" content="Syed Kashif Shah — Full Stack Developer">
+  <meta property="og:description" content="Experienced in Python, Django, FastAPI, and React.js. View portfolio and contact.">
+  <meta property="og:image" content="https://naqvi-shah.surge.sh/images/preview.png">
 
-    <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="http://kashif.surge.sh" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Kashif Naqvi | Frontend Web Developer" />
-    <meta
-      property="og:description"
-      content="Hi, I am Kashif. I create UX rich performant websites and web applications focusing on user interactions at an
-        expert level."
-    />
-    <meta property="og:image" content="./meta.png" />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://naqvi-shah.surge.sh/">
+  <meta property="twitter:title" content="Syed Kashif Shah — Full Stack Developer">
+  <meta property="twitter:description" content="Experienced Full Stack Developer with Django, React, FastAPI.">
+  <meta property="twitter:image" content="https://naqvi-shah.surge.sh/images/preview.png">
 
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Kashif Naqvi | Frontend Web Developer"
-    />
-    <meta
-      name="twitter:description"
-      content="Hi, I am Kashif. I create UX rich performant websites and web applications focusing on user interactions at an
-        expert level."
-    />
-    <meta name="twitter:image" content="./meta.png" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400"
-      rel="stylesheet"
-    />
-    <script src="./js/index.js" defer></script>
-  </head>
+  <!-- Favicon -->
+  <!-- Replace your current font with this more elegant combination -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <body>
-    <!-- ***** Navigation ***** -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://unpkg.com/feather-icons"></script>
 
-    <div class="navigation">
-      <input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
-      <label for="nav-toggle" class="navigation__button">
-        <span class="navigation__icon" aria-label="toggle navigation menu"
-          >&nbsp;</span
-        >
-      </label>
-      <div class="navigation__background">&nbsp;</div>
-
-      <nav class="navigation__nav" role="navigation">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="#about" class="navigation__link"><span>01</span>About</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#skill" class="navigation__link"><span>02</span>Skills</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#work" class="navigation__link"><span>03</span>Work</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#popup" class="navigation__link"><span>04</span>Hire Me</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#footer" class="navigation__link"
-              ><span>05</span>Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </div>
-
-    <!-- ***** Header ***** -->
-
-    <header class="header" role="banner" id="header">
-      <div class="header__text-box">
-        <h1 class="heading-primary">Hi! I am Kashif</h1>
-        <p class="header__description">
-          A Web Developer who creates UX rich performant websites and web
-          applications API's.
-        </p>
-        <a href="#popup" class="btn btn__hire" id="hire"
-          >Hire Me &nbsp;&rarr;</a
-        >
+</head>
+<body>
+  <!-- ===== Header & Navigation ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <div class="header__content">
+        <h1 class="logo">Syed Kashif Shah</h1>
+        <p class="tagline">Senior Full-Stack Developer</p>
       </div>
-      <!-- <p class="header__director">Scroll Down &darr;</p> -->
-    </header>
-
-    <!-- ***** Main ***** -->
-
-    <main role="main">
-      <!-- ***** Section Intro ***** -->
-
-      <section class="intro">
-        <div class="row">
-          <h2 class="heading-secondary">Nice to Have You Here</h2>
-          <p class="intro-text">
-            Are You looking for a fast-performing and user-friendly website to
-            represent your product or business? perhaps you are looking for any
-            kind of consultation? or maybe you have an idea you’d like to
-            express but need a professional with vision in order to actually
-            create it? maybe you’d like to collaborate? moreover, feel free to
-            reach out to me with some advice, I’d love to hear some constructive
-            criticism about any of my projects!
-          </p>
-          <a href="https://twitter.com/naqvishah582" class="btn"
-            >Say Hello !</a
-          >
-        </div>
-      </section>
-
-      <!-- ***** Section Skills ***** -->
-
-      <section class="skill" id="skill">
-        <div class="u-text-center">
-          <h2 class="heading-secondary">My Skillset</h2>
-           <p class="intro-text "> I have a diverse set of skills from design to
-             <a target="_blank" href="https://www.w3.org/TR/2016/REC-html51-20161101/dom.html">Semantic</a> and well structured HTML + reasonable and efficient CSS, <a target="_blank" href="http://getbem.com/">BEM</a> and  JS (ES6 - ESX, <a target="_blank" href="https://eslint.org/">ESLint</a> for linting JS, <a href="https://babeljs.io/" target="_blank">Babel</a> for transpiling)+ <a target="_blank" href="https://reactjs.org/">ReactJs</a> ( for building complex UIs ) +
-              <a target="_blank" href="https://redux.js.org/">Redux</a> ( for state management ) + module bundlers like <a target="_blank" href="http://webpack.js.org/">Webpack</a> and <a target="_blank" href="https://parceljs.org/">Parcel. </a>  for graphical representation use <a href="https://d3js.org/" target="_blank"  >D3js</a> for manage backend use python with django web framework and database I'm using PostgreSQL. I love things that are open source I use <a target="_blank" href="https://code.visualstudio.com/">VS Code/Atom</a> as my editors and
-               <a target="_blank" href="https://www.ubuntu.com/">Ubuntu Linux</a> as My operating system. </p>
-          <a href="#work" class="btn">My Work</a>
-        </div>
-      </section>
-
-      <section class="about" id="about">
-        <div class="u-text-center">
-          <h2 class="heading-secondary">About Me</h2>
-        </div>
-        <p class="intro-text">
-          Software development engineer with more than 3 years of practical experience in front-end
-          and back-end development. Has strong background in Python-based web development,
-          PostgreSQL along with front-end development using modern frameworks, including React
-          and Redux. Fast-learning abilities and problem-solving skills make me a valuable team
-          player. I am a Meticulous web developer with a passion for responsive website design and
-          a firm believer in the mobile-first approach. I am dedicated to creating and optimizing
-          interactive, user-friendly, and feature-rich websites. Leverage analytical skills and strong
-          attention to detail in order to deliver original and efficient web solutions, provide technical
-          knowledge and expertise. I am professional, highly organized, self-driven, reliable,
-          adaptable, and have good communication skills.
-        </p>
-      </section>
-
-      <!-- ***** Section Craft ***** -->
-
-      <section class="craft">
-        <div class="u-text-center">
-          <h2 class="heading-secondary">My Craft in a Nutshell</h2>
-          <p class="intro-text">
-            I love simplicity so I try my best to make things as simple as
-            possible. I am also very concerned about best practices and always
-            sacrifice developer experience over user experience.
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="craft__item">
-            <img src="./img/browser-16.svg" alt="Browser" class="craft__img" />
-            <h3 class="heading-tertiary">Front-end</h3>
-            <p class="craft__description">
-              I value simple content structure, clean design patterns, and
-              thoughtful interactions filled with semantics and performance. I
-              tend to code things from scratch and enjoy bringing ideas to life.
-            </p>
-          </div>
-
-          <div class="craft__item hack"></div>
-
-          <div class="craft__item">
-            <img src="./img/browser-26.svg" alt="Server" class="craft__img" />
-            <h3 class="heading-tertiary">Back-end</h3>
-            <p class="craft__description">
-              I am a huge fan of "convention over configuration" and like things
-              that follow "don't repeat yourself" principle, therefore I do my
-              Backend in python django.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- ***** Section Work ***** -->
-
-      <section class="work" id="work">
-        <div class="u-text-center">
-          <h2 class="heading-secondary">My Work</h2>
-          <p class="intro-text">
-            I am currently working on some Projects, which I will upload to my portfolio as soon as they are done.
-            Here are a few little name:<a href="https://confident-kalam-fad1ba.netlify.com/" target="_blank">Education App</a>, 
-            <a href="https://practiclepayload.netlify.com/" target="_blank">Timmer filter data payload</a> <a href="https://bl.ocks.org/Kashif1Naqvi/raw/dbce3dc832aea54b0b6c12b6ec2efa32/a17a431d9ab84d0840823c29bedf9f46013d0089/" target="_blank" > Line chart(Temperature vs Time
-             ) </a>,<br>
-             <b>some projects source codes</b><br>
-             <a href="https://github.com/Kashif1Naqvi/Education-App" target="_blank" rel="noopener noreferrer">
-              Education app(ReactJs,Boostrap4,mobX,Firebase5.0.0)
-            </a><br>
-             <a href="https://github.com/Kashif1Naqvi/Blog" target="_blank" rel="noopener noreferrer">
-              New Blog App(ReactJs,Boostrap4,Elixer(not available))
-            </a><br>
-             <a href="https://github.com/Kashif1Naqvi/Blog-Django" target="_blank" rel="noopener noreferrer">
-              Blog User management(Python3.8,Django3.0,Boostrap4)
-            </a><br>
-             <a href="https://github.com/Kashif1Naqvi/Browser_text-styling-app-in-REACT" target="_blank" rel="noopener noreferrer">
-              Browser Styling App(ReactJs,bulma)
-            </a><br>
-            <a href="https://github.com/Kashif1Naqvi/profile-rest-api" target="_blank" rel="noopener noreferrer">
-              Profile management with posts(python3.8,Django3.0,djangoRestFramework,ReactJs hooks)
-            </a><br>
-            <br />(Work in Progress).
-          </p>
-          <img src="./img/609732.svg" alt="" class="work__construction" />
-          <a href="#popup" class="btn btn--hire">Hire Me &nbsp;&rarr;</a>
-        </div>
-      </section>
-    </main>
-
-    <!-- ***** Footer ***** -->
-
-    <footer class="footer" id="footer">
       <nav>
-        <ul class="footer__social-links">
-          <li class="footer__social-link">
-            <a href="https://twitter.com/naqvishah582">Twitter</a>
-          </li>
-          <li class="footer__social-link">
-            <a href="https://www.linkedin.com/in/syed-kashif-8b48a015b/"
-              >Linkedin</a
-            >
-          </li>
-          <li class="number">(+92) 306 9861434</li>
-          <li>
-            <a href="mailto:syedkashifnaqvi14@gmail.com" class="number"
-              >syedkashifnaqvi14@gmail.com</a
-            >
-          </li>
+        <input type="checkbox" id="nav-toggle" class="nav__checkbox" />
+        <label for="nav-toggle" class="nav__toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <div class="footer__outro">
-        <p class="footer__info">
-          Crafted within Lahore by
-          <a href="https://twitter.com/naqvishah582">Kashif.</a>
-        </p>
-        <p class="footer__info">&copy;2020. All rights reserved.</p>
-      </div>
-    </footer>
+    </div>
+  </header>
 
-    <!-- ***** Popup ***** -->
-
-    <div class="popup" id="popup">
-      <div class="popup__content">
-        <div class="popup__right">
-          <a href="#!" class="popup__close">&times;</a>
-          <div class="popup__top">
-            <h2 class="heading-secondary u-text-center">Curriculum Vitae</h2>
-            <p class="popup__text">Grab My CV to find out more about me.</p>
-            <div class="popup__buttons">
-              <a
-                href="https://drive.google.com/file/d/1umZo4VS3LF5x1ImIzf3m6WGmXouGGq8_/view?usp=sharing"
-                class="btn"
-                >Download</a
-              >
-            </div>
+  <!-- ===== Hero Section ===== -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__text">
+          <h1>Syed Kashif Shah</h1>
+          <h2>Full Stack Developer | Python, Django, React.js</h2>
+          <p>Helping businesses build fast, secure, and scalable web apps.</p>
+          <div class="hero__contact">
+            <a href="mailto:syedkashifnaqvi14@gmail.com">✉️ syedkashifnaqvi14@gmail.com</a>
+            <a href="tel:+923069861434">📱 (+92) 306-986-1434</a>
+            <a href="https://linkedin.com/in/syed-kashif512" target="_blank">💼 LinkedIn</a>
+            <a href="http://kashif-syed.surge.sh" target="_blank">🌐 Portfolio</a>
           </div>
-          <div class="popup__contact-info">
-            <nav>
-              <ul class="footer__social-links">
-                <li class="footer__social-link">
-                  <a href="https://twitter.com/naqvishah582">Twitter</a>
-                </li>
-                <li class="footer__social-link">
-                  <a href="https://www.linkedin.com/in/syed-kashif-8b48a015b/"
-                    >Linkedin</a
-                  >
-                </li>
-                <li class="number">(+92) 3069861434</li>
-                <li>
-                  <a class="number" href="mailto:naqvishah582@gmail.com"
-                    >naqvishah582@gmail.com</a
-                  >
-                </li>
-              </ul>
-            </nav>
+          <a href="https://github.com/Kashif1Naqvi" target="_blank" class="btn btn--primary">View GitHub Profile</a>
+        </div>
+        <div class="hero__image">
+          <div class="profile-placeholder">
+            <img src="./img/kashif.jpg" alt="Syed Kashif Shah" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;" />
           </div>
         </div>
       </div>
     </div>
+  </section>
+  <!-- ===== About ===== -->
+  <section id="about" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">About Me</h2>
+      <div class="about__content">
+        <p>
+          Experienced Full Stack Developer with a strong background in Python, Django, and React.js. 
+          Skilled in designing scalable, high-performance web applications using RESTful and GraphQL APIs, 
+          microservices, and asynchronous processing. Proficient in database management, frontend-backend 
+          integration, and deploying solutions on AWS and Docker. Known for solving complex technical 
+          challenges and delivering user-focused, efficient systems.
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <script>
-      const navigation__checkbox = document.querySelector(
-        ".navigation__checkbox"
-      );
-      const navigation__list = document.querySelector(".navigation__list");
-      navigation__list.addEventListener('click', (e) => {
-          if (e.target !== navigation__list) {
-              navigation__checkbox.checked = false;
-          }
-      })
-    </script>
-  </body>
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section__title">Technical Skills</h2>
+      <div class="skills__grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>Ruby</span>
+            <span>Rust</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Frameworks</h3>
+          <div class="skill-tags">
+            <span>Django</span>
+            <span>Flask</span>
+            <span>FastAPI</span>
+            <span>React.js</span>
+            <span>Redux</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <div class="skill-tags">
+            <span>MySQL</span>
+            <span>PostgreSQL</span>
+            <span>NoSQL</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Frontend Tools</h3>
+          <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Bootstrap</span>
+            <span>D3.js</span>
+            <span>jQuery</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Backend Tools</h3>
+          <div class="skill-tags">
+            <span>DRF</span>
+            <span>GraphQL</span>
+            <span>Celery</span>
+            <span>AsyncIO</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>DevOps</h3>
+          <div class="skill-tags">
+            <span>AWS</span>
+            <span>Docker</span>
+            <span>Git</span>
+            <span>CI/CD</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+<section id="projects" class="section section--alt">
+  <div class="container">
+    <h2 class="section__title">Featured Projects</h2>
+    <div class="projects-grid">
+
+      <!-- Project Card 1 -->
+      <article class="project-card">
+        <div class="project-card-header">
+          <h3>Accounts Management System</h3>
+          <span class="project-duration">Mar 2023 – Present</span>
+        </div>
+        <p class="project-desc">
+          Role-based system with fee and inventory management.<br>
+          <strong>Result:</strong> Reduced data entry time by <span class="highlight">40%</span> through automation.
+        </p>
+        <div class="project-tech">
+          <span class="tech-pill">Django</span>
+          <span class="tech-pill">PostgreSQL</span>
+          <span class="tech-pill">Bootstrap</span>
+        </div>
+        <a href="https://accounts.usa.edu.pk/" target="_blank" class="project-link">View Project &rarr;</a>
+      </article>
+
+      <!-- Project Card 2 -->
+      <article class="project-card">
+        <div class="project-card-header">
+          <h3>Customer Response Management (CRM)</h3>
+          <span class="project-duration">Mar 2024 – Sep 2024</span>
+        </div>
+        <p class="project-desc">
+          AI-driven performance reporting and lead tracking.<br>
+          <strong>Integration:</strong> WordPress &amp; Celery for automation.
+        </p>
+        <div class="project-tech">
+          <span class="tech-pill">React.js</span>
+          <span class="tech-pill">FastAPI</span>
+          <span class="tech-pill">Celery</span>
+          <span class="tech-pill tech-pill-ai">AI/ML</span>
+        </div>
+        <a href="https://crm.usa.edu.pk/" target="_blank" class="project-link">View Project &rarr;</a>
+      </article>
+
+      <!-- Project Card 3 -->
+      <article class="project-card">
+        <div class="project-card-header">
+          <h3>Gluu.org Customization</h3>
+          <span class="project-duration">Oct 2021 – Sep 2022</span>
+        </div>
+        <p class="project-desc">
+          Ticket system and custom features for Gluu's support portal.
+        </p>
+        <div class="project-tech">
+          <span class="tech-pill">Python</span>
+          <span class="tech-pill">Flask</span>
+          <span class="tech-pill">Redis</span>
+          <span class="tech-pill">Docker</span>
+        </div>
+        <a href="https://support.gluu.org/" target="_blank" class="project-link">View Project &rarr;</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ===== Experience ===== -->
+<!-- ===== Professional Experience (Beautiful Gradient Cards) ===== -->
+<section id="experience" class="section experience-section">
+  <div class="container">
+    <div class="section__header animate-on-scroll">
+      <span class="section__subtitle">My Journey</span>
+      <h2 class="section__title">Professional Experience</h2>
+    </div>
+    <div class="exp-gradient-row">
+
+      <!-- Experience Card 1 -->
+      <div class="exp-gradient-card current">
+        <div class="exp-card-header">
+          <div class="exp-card-icon" style="background: linear-gradient(135deg,#56ccf2,#2f80ed);">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div>
+            <h3>Senior Web Developer <span class="exp-badge">Current</span></h3>
+            <div class="exp-meta">Gateway Technologies &middot; Lahore, Pakistan</div>
+            <div class="exp-dates">Jan 2025 – Present</div>
+          </div>
+        </div>
+        <ul>
+          <li>Led backend development for large-scale projects using Python, Django, React.</li>
+          <li>Designed role-based dashboards for data accessibility and UX.</li>
+          <li>Optimized API performance and database queries.</li>
+          <li>Mentored junior developers and fostered collaboration.</li>
+        </ul>
+        <div class="exp-skills">
+          <span>Python</span><span>Django</span><span>React</span>
+        </div>
+      </div>
+
+      <!-- Experience Card 2 -->
+      <div class="exp-gradient-card">
+        <div class="exp-card-header">
+          <div class="exp-card-icon" style="background: linear-gradient(135deg,#f7971e,#ffd200);">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <div>
+            <h3>Software Engineer</h3>
+            <div class="exp-meta">Netsol Technologies Inc &middot; Lahore, Pakistan</div>
+            <div class="exp-dates">Jul 2024 – Dec 2024</div>
+          </div>
+        </div>
+        <ul>
+          <li>Led Broker Portal Project using React.js & FastAPI.</li>
+          <li>Implemented scalable APIs & microservices architecture.</li>
+          <li>Enhanced performance with Celery & AWS deployment.</li>
+          <li>Collaborated with frontend for seamless integration.</li>
+        </ul>
+        <div class="exp-skills">
+          <span>React.js</span><span>FastAPI</span><span>AWS</span>
+        </div>
+      </div>
+
+      <!-- Experience Card 3 -->
+      <div class="exp-gradient-card">
+        <div class="exp-card-header">
+          <div class="exp-card-icon" style="background: linear-gradient(135deg,#43e97b,#38f9d7);">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <div>
+            <h3>Full Stack Developer</h3>
+            <div class="exp-meta">Gateway Technologies &middot; Lahore, Pakistan</div>
+            <div class="exp-dates">Mar 2023 – Jun 2024</div>
+          </div>
+        </div>
+        <ul>
+          <li>Built and maintained Accounts Management and CRM web systems.</li>
+          <li>Automated processes, reducing data entry time by 40%.</li>
+          <li>Integrated AI reporting and lead tracking.</li>
+          <li>Managed deployment & scaling with Docker & AWS.</li>
+        </ul>
+        <div class="exp-skills">
+          <span>Django</span><span>PostgreSQL</span><span>React.js</span><span>Celery</span>
+        </div>
+      </div>
+
+      <!-- Experience Card 4 -->
+      <div class="exp-gradient-card">
+        <div class="exp-card-header">
+          <div class="exp-card-icon" style="background: linear-gradient(135deg,#ee0979,#ff6a00);">
+            <i class="fa-solid fa-cloud"></i>
+          </div>
+          <div>
+            <h3>Python Developer (Remote)</h3>
+            <div class="exp-meta">Ashtex &middot; Remote</div>
+            <div class="exp-dates">Oct 2021 – Sep 2022</div>
+          </div>
+        </div>
+        <ul>
+          <li>Customized Gluu support portal, added ticketing & features.</li>
+          <li>Integrated Redis & Docker for scalable backend.</li>
+          <li>Worked with global teams for deployment.</li>
+        </ul>
+        <div class="exp-skills">
+          <span>Python</span><span>Flask</span><span>Redis</span><span>Docker</span>
+        </div>
+      </div>
+
+      <!-- Experience Card 5 -->
+      <div class="exp-gradient-card">
+        <div class="exp-card-header">
+          <div class="exp-card-icon" style="background: linear-gradient(135deg,#8e54e9,#4776e6);">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div>
+            <h3>Freelance Full Stack Developer</h3>
+            <div class="exp-meta">Digital Cru &middot; Lahore, Pakistan</div>
+            <div class="exp-dates">2019 – 2021</div>
+          </div>
+        </div>
+        <ul>
+          <li>Delivered multiple web applications to clients.</li>
+          <li>Worked across Python, Django, JS, React, MySQL.</li>
+          <li>Provided consultation and deployment support.</li>
+        </ul>
+        <div class="exp-skills">
+          <span>Python</span><span>Django</span><span>JavaScript</span><span>React</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+  <!-- ===== Certifications ===== -->
+  <section id="certifications" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <span class="cert-icon">🏆</span>
+          <p>Microsoft Front-End Dev (2019)</p>
+        </div>
+        <div class="cert-card">
+          <span class="cert-icon">🏆</span>
+          <p>Asynchronous Python (2024)</p>
+        </div>
+        <div class="cert-card">
+          <span class="cert-icon">🏆</span>
+          <p>Data Scientist (2024)</p>
+        </div>
+        <div class="cert-card">
+          <span class="cert-icon">🏆</span>
+          <p>D3.js Data Visualization</p>
+        </div>
+        <div class="cert-card">
+          <span class="cert-icon">🏆</span>
+          <p>Lynda Full Stack Development</p>
+        </div>
+        <div class="cert-card">
+          <span class="cert-icon">🏆</span>
+          <p>AWS Cloud Practitioner</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Education ===== -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section__title">Education</h2>
+      <div class="education-card">
+        <span class="edu-icon">🎓</span>
+        <div>
+          <h3>Bachelor of Computer Science</h3>
+          <p>NCBA&E, Lahore</p>
+          <p>2019 | GPA: 3.5</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Pricing ===== -->
+  <section id="pricing" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Service Packages</h2>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h3>Basic</h3>
+          <div class="price">$50</div>
+          <ul>
+            <li>✓ Landing Page</li>
+            <li>✓ Responsive Design</li>
+            <li>✓ 3 Revisions</li>
+            <li>✓ Basic SEO</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Contact Me</a>
+        </div>
+        <div class="pricing-card featured">
+          <h3>Standard</h3>
+          <div class="price">$150</div>
+          <ul>
+            <li>✓ Full Stack Web App</li>
+            <li>✓ Database Integration</li>
+            <li>✓ API Development</li>
+            <li>✓ Deployment</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Contact Me</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Premium</h3>
+          <div class="price">$300</div>
+          <ul>
+            <li>✓ AI & CRM Integration</li>
+            <li>✓ Advanced Features</li>
+            <li>✓ Scalable Architecture</li>
+            <li>✓ Ongoing Support</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section">
+  <div class="container">
+    <div class="section__header">
+      <span class="section__subtitle">Get In Touch</span>
+      <h2 class="section__title">Let's Work Together</h2>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-form-container">
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Share your project idea or simply say hello..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            <span class="btn-text">Let's Create Something Amazing!</span>
+            <span class="btn-icon">→</span>
+          </button>
+        </form>
+        <div class="form-decoration"></div>
+      </div>
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <ul class="contact-info__list">
+          <li class="contact-info__item">
+            <div class="contact-info__icon">
+              <i class="icon-mail"></i>
+            </div>
+            <div class="contact-info__content">
+              <span class="contact-info__label">Email</span>
+              <a href="mailto:syedkashifnaqvi14@gmail.com" class="contact-info__value">syedkashifnaqvi14@gmail.com</a>
+            </div>
+          </li>
+            <li class="contact-info__item">
+            <div class="contact-info__icon">
+              <i class="icon-whatsapp"></i>
+            </div>
+            <div class="contact-info__content">
+                <span class="contact-info__label">WhatsApp / Phone</span>
+                <span class="contact-info__note">Available for quick chats and calls</span><br>
+              <a href="https://wa.me/923069861434" class="contact-info__value">(+92) 306-986-1434</a>
+            </div>
+            </li>
+          <li class="contact-info__item">
+            <div class="contact-info__icon">
+              <i class="icon-map-pin"></i>
+            </div>
+            <div class="contact-info__content">
+              <span class="contact-info__label">Location</span>
+              <span class="contact-info__value">Lahore, Punjab, Pakistan</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2025 Syed Kashif Shah. Built with ❤️ using HTML & CSS</p>
+      <div class="footer-links">
+        <a href="https://github.com/Kashif1Naqvi" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/syed-kashif512" target="_blank">LinkedIn</a>
+        <a href="http://kashif-syed.surge.sh" target="_blank">Portfolio</a>
+      </div>
+    </div>
+  </footer>
+ <script>
+  // Simple contact form handler without name and email fields
+  document.querySelector('.contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    // Get form data
+    const message = document.getElementById('message').value;
+    
+    // Create email body
+    const body = `Hello Kashif,\n\n${message}\n\nLooking forward to your response!`;
+    
+    // Create mailto link with pre-filled data
+    const mailtoLink = `mailto:syedkashifnaqvi14@gmail.com?subject=Portfolio Inquiry&body=${encodeURIComponent(body)}`;
+    
+    // Change button text and show message
+    const btn = event.target.querySelector('button');
+    const originalText = btn.textContent;
+    
+    // Show animated message
+    btn.innerHTML = '<span class="btn-text">Preparing Message...</span>';
+    btn.classList.add('sending');
+    
+    // Reset form
+    setTimeout(() => {
+      window.location.href = mailtoLink;
+      document.querySelector('.contact-form').reset();
+      
+      // Reset button after delay
+      setTimeout(() => {
+        btn.innerHTML = originalText;
+        btn.classList.remove('sending');
+      }, 2000);
+    }, 800);
+  });
+
+// Add this to your script section
+document.addEventListener('DOMContentLoaded', function() {
+  
+  // Intersection Observer for scroll animations
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+  
+  // Target elements to animate
+  const animatedElements = document.querySelectorAll('.animate-on-scroll');
+  animatedElements.forEach(el => observer.observe(el));
+  
+  // Menu toggle functionality
+  const navToggle = document.getElementById('nav-toggle');
+  const nav = document.querySelector('.nav');
+  
+  navToggle.addEventListener('change', function() {
+    nav.classList.toggle('active', this.checked);
+  });
+});
+
+</script>
+
+</body>
 </html>
